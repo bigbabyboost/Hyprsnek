@@ -89,11 +89,11 @@ modules:
         - pipx
         - gh
         - make
-       - rust
-       - cargo
-       - clippy
-       - rustfmt
-       - rust-std-static
+        - rust
+        - cargo
+        - clippy
+        - rustfmt
+        - rust-std-static
 
       # sound
         - wireplumber
