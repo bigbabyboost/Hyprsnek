@@ -10,6 +10,7 @@ modules:
     - type: script
       scripts:
         - installsignedkernel.sh
+        - yazi.sh
 
     - type: containerfile
       snippets:
@@ -192,10 +193,6 @@ modules:
       user:
         enabled: []
         disabled: []
-
-    - typre: script
-      scripts:
-        - yazi.sh 
 
     - type: script
       scripts:
