@@ -48,6 +48,7 @@ modules:
         - intel-gpu-tools
         - libva-utils
         - fd-find
+        - starship
 
       # polkit
         - polkit
@@ -170,7 +171,6 @@ modules:
     - type: script
       scripts:
         - installproprietarypackages.sh
-        - yazi.sh
 
     - type: rpm-ostree
       install:
@@ -207,6 +207,7 @@ modules:
           - virtnodedevd.socket
           - warp-svc
           - tailscaled
+          - swayosd-libinput-backend
         disabled: []
       user:
         enabled: []
