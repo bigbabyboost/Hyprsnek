@@ -10,7 +10,6 @@ modules:
     - type: script
       scripts:
         - installsignedkernel.sh
-        - yazi.sh
 
     - type: containerfile
       snippets:
@@ -90,6 +89,11 @@ modules:
         - pipx
         - gh
         - make
+       - rust
+       - cargo
+       - clippy
+       - rustfmt
+       - rust-std-static
 
       # sound
         - wireplumber
@@ -152,6 +156,7 @@ modules:
     - type: script
       scripts:
         - installproprietarypackages.sh
+        - yazi.sh
 
     - type: rpm-ostree
       install:
