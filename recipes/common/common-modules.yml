@@ -182,7 +182,6 @@ modules:
         - libpostproc-free  
         - libswresample-free  
         - libswscale-free  
-        - nwg-panel
 
     - type: systemd
       system:
