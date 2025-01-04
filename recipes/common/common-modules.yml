@@ -47,7 +47,7 @@ modules:
       # cli
         - intel-gpu-tools
         - libva-utils
-        - fd
+        - fd-find
 
       # polkit
         - polkit
