@@ -3,7 +3,7 @@
   "position": "top",
   "mod": "dock",
   //"exclusive": true,
-  "gtk-layer-shell": true,
+  "gtk-layer-shell": false,
   "margin-bottom": -1,
   "passthrough": false,
   "height": 41,
