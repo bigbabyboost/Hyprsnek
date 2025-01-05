@@ -86,6 +86,7 @@ modules:
         - unrar
         - distrobox
         - poppler
+        - gparted
         
         # Dev
         - gcc
