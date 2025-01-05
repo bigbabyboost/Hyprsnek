@@ -1,5 +1,6 @@
 modules:
     - type: script
       scripts:
+        - desktop.sh
         - removeunusedrepos.sh
         - regenerateinitramfs.sh
