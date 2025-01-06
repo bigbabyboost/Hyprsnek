@@ -51,6 +51,7 @@ modules:
         - libva-utils
         - fd-find
         - starship
+        - fastfetch
 
       # polkit
         - polkit
